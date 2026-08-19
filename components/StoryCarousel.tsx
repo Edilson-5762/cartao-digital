@@ -19,23 +19,25 @@ export function StoryCarousel() {
   return (
     <section id="historia" className="px-4 py-16">
       <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold text-ink">Minha História</h2>
+        <h2 className="text-2xl font-bold text-ink sm:text-3xl">Minha História</h2>
         <p className="mt-2 text-ink-muted">
           De açougueiro a vigilante, e agora em transição para desenvolvedor.
         </p>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 md:items-center">
-          <img
-            src={slide.image}
-            alt={slide.title}
-            className="w-full rounded-2xl object-cover"
-          />
-          <div>
+          <div className="aspect-4/3 w-full overflow-hidden rounded-2xl sm:aspect-16/10 md:aspect-4/3">
+            <img
+              src={slide.image}
+              alt={slide.title}
+              className="h-full w-full object-contain"
+            />
+          </div>
+          <div className="min-w-0">
             <p className="text-sm font-medium text-gold-400">{slide.period}</p>
-            <h3 className="mt-1 text-2xl font-semibold text-ink">
+            <h3 className="mt-1 text-xl font-semibold text-ink sm:text-2xl">
               {slide.title}
             </h3>
-            <p className="mt-3 text-ink-muted">{slide.description}</p>
+            <p className="mt-3 wrap-break-word text-ink-muted">{slide.description}</p>
           </div>
         </div>
 

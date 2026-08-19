@@ -14,11 +14,9 @@ describe("Hero", () => {
     expect(screen.queryByText(/em formação/i)).not.toBeInTheDocument();
   });
 
-  it("shows the banner and the developer photo", () => {
+  it("shows the tech stack icons and the developer photo", () => {
     render(<Hero />);
-    expect(
-      screen.getByAltText("Banner Stack Analytics — Full Stack Developer")
-    ).toBeInTheDocument();
+    expect(screen.getByAltText("Python")).toBeInTheDocument();
     expect(
       screen.getByAltText("Foto de Edilson Coelho Moraes")
     ).toBeInTheDocument();
