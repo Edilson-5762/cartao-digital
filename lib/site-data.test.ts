@@ -29,8 +29,8 @@ describe("site-data", () => {
 
   it("has 6 story slides in chronological order", () => {
     expect(storySlides).toHaveLength(6);
-    expect(storySlides[0].image).toBe("/story/01-chef-prime.jpg");
-    expect(storySlides[5].image).toBe("/story/06-desenvolvedor.png");
+    expect(storySlides[0].images).toEqual(["/story/01-chef-prime.jpg"]);
+    expect(storySlides[5].images).toEqual(["/story/06-desenvolvedor.png"]);
   });
 
   it("has the exact WhatsApp deep link", () => {

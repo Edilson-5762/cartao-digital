@@ -25,12 +25,19 @@ export function StoryCarousel() {
         </p>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 md:items-center">
-          <div className="aspect-4/3 w-full overflow-hidden rounded-2xl sm:aspect-16/10 md:aspect-4/3">
-            <img
-              src={slide.image}
-              alt={slide.title}
-              className="h-full w-full object-contain"
-            />
+          <div
+            className={`aspect-4/3 w-full overflow-hidden rounded-2xl sm:aspect-16/10 md:aspect-4/3 ${
+              slide.images.length > 1 ? "grid grid-cols-2 gap-1" : ""
+            }`}
+          >
+            {slide.images.map((image) => (
+              <img
+                key={image}
+                src={image}
+                alt={slide.title}
+                className="h-full w-full object-contain"
+              />
+            ))}
           </div>
           <div className="min-w-0">
             <p className="text-sm font-medium text-gold-400">{slide.period}</p>
@@ -54,7 +61,7 @@ export function StoryCarousel() {
           <div className="flex items-center gap-2.5">
             {storySlides.map((s, i) => (
               <button
-                key={s.image}
+                key={s.images[0]}
                 type="button"
                 aria-label={`Ir para slide ${i + 1}`}
                 aria-current={i === index}

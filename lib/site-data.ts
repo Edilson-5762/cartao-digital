@@ -34,7 +34,7 @@ export const skills: Skill[] = [
 ];
 
 export type StorySlide = {
-  image: string;
+  images: string[];
   period: string;
   title: string;
   description: string;
@@ -42,42 +42,42 @@ export type StorySlide = {
 
 export const storySlides: StorySlide[] = [
   {
-    image: "/story/01-chef-prime.jpg",
+    images: ["/story/01-chef-prime.jpg"],
     period: "2018 – 2019",
     title: "Chegada em Brasília",
     description:
       "Recém-chegado à capital, comecei como açougueiro, aprendendo na prática o valor do trabalho duro.",
   },
   {
-    image: "/story/02-chef-acougue.jpg",
+    images: ["/story/02-chef-acougue.jpg"],
     period: "Jun 2022 – Dez 2022",
     title: "Chefe de Açougue",
     description:
       "Assumi a gestão de equipe, estoque e operações na Alves e Barroso, desenvolvendo liderança.",
   },
   {
-    image: "/story/03-bras.jpg",
+    images: ["/story/ipanema.jpg"],
     period: "Abr 2023 – Dez 2024",
     title: "Vigilante — Ipanema Segurança",
     description:
       "Migrei para a área de segurança privada, atuando na prevenção de riscos e gestão de ocorrências.",
   },
   {
-    image: "/story/04-vig.jpg",
+    images: ["/story/03-bras.jpg", "/story/04-vig.jpg"],
     period: "Dez 2024 – Atual",
     title: "Vigilante — Brasília Segurança S/A",
     description:
       "Atuo hoje na segurança patrimonial, controle de acesso e monitoramento, enquanto construo minha nova carreira.",
   },
   {
-    image: "/story/05-dev-edilson.png",
+    images: ["/story/05-dev-edilson.png"],
     period: "Em transição",
     title: "Formação em Tecnologia",
     description:
       "Concluí Análise e Desenvolvimento de Sistemas e iniciei a pós-graduação em Data Analytics e IA Aplicada a Negócios.",
   },
   {
-    image: "/story/06-desenvolvedor.png",
+    images: ["/story/06-desenvolvedor.png"],
     period: "Hoje",
     title: "Full Stack Developer em transição de carreira",
     description:

@@ -25,6 +25,7 @@ const expectedFiles = [
   "story/02-chef-acougue.jpg",
   "story/03-bras.jpg",
   "story/04-vig.jpg",
+  "story/ipanema.jpg",
   "story/05-dev-edilson.png",
   "story/06-desenvolvedor.png",
   "logo-aguia-square.png",
