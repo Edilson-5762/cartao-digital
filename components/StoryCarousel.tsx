@@ -41,25 +41,28 @@ export function StoryCarousel() {
           </div>
         </div>
 
-        <div className="mt-8 flex items-center justify-center gap-6">
+        <div className="mt-8 flex items-center justify-center gap-4 sm:gap-6">
           <button
             type="button"
             aria-label="Slide anterior"
             onClick={goPrev}
-            className="text-ink"
+            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-lg text-ink transition-all duration-200 hover:border-gold-400/60 hover:bg-white/10 hover:text-gold-400 active:opacity-70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400"
           >
             ←
           </button>
 
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2.5">
             {storySlides.map((s, i) => (
               <button
                 key={s.image}
                 type="button"
                 aria-label={`Ir para slide ${i + 1}`}
+                aria-current={i === index}
                 onClick={() => setIndex(i)}
-                className={`h-2 w-2 rounded-full ${
-                  i === index ? "bg-gold-500" : "bg-white/20"
+                className={`h-3 rounded-full transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400 ${
+                  i === index
+                    ? "w-8 bg-gold-500"
+                    : "w-3 bg-white/25 hover:bg-white/45"
                 }`}
               />
             ))}
@@ -69,7 +72,7 @@ export function StoryCarousel() {
             type="button"
             aria-label="Próximo slide"
             onClick={goNext}
-            className="text-ink"
+            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/15 bg-white/5 text-lg text-ink transition-all duration-200 hover:border-gold-400/60 hover:bg-white/10 hover:text-gold-400 active:opacity-70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-400"
           >
             →
           </button>
