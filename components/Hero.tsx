@@ -16,7 +16,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-2 text-sm text-ink-muted sm:text-base">
-            Edilson Coelho Moraes ·{" "}
+            Edilson Moraes ·{" "}
             <a
               href="https://github.com/Edilson-5762/"
               target="_blank"
