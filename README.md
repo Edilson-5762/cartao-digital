@@ -1,6 +1,6 @@
-# Cartão Digital — Edilson Coelho Moraes
+# Cartão Digital — Edilson Moraes
 
-Portfólio pessoal (cartão de visitas digital) de **Edilson Coelho Moraes**, desenvolvedor Full Stack em transição de carreira, especializando-se em Data Analytics e IA aplicada a negócios.
+Portfólio pessoal (cartão de visitas digital) de **Edilson Moraes**, desenvolvedor Full Stack em transição de carreira, especializando-se em Data Analytics e IA aplicada a negócios.
 
 🔗 **Site no ar:** [cartaodigital.developeredilsonebenezer.com.br](https://cartaodigital.developeredilsonebenezer.com.br)
 
