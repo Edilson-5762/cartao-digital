@@ -81,7 +81,7 @@ export const storySlides: StorySlide[] = [
     period: "Hoje",
     title: "Full Stack Developer em transição de carreira",
     description:
-      "Aplico Python, JavaScript, React, Node e IA no desenvolvimento de soluções, unindo disciplina, foco, determinação e superação. Amo todas as minhas profissões e agradeço a DEUS por tudo. Esse amor, desejo e paixão pela tecnologia já vêm desde a infância.",
+      "Aplico Python, JavaScript, React, Node e IA no desenvolvimento de soluções, unindo disciplina, foco, determinação e superação. Amo todas as minhas profissões e agradeço a DEUS por tudo. No entanto, esse amor, desejo e paixão pela tecnologia já vêm desde a infância.",
   },
 ];
 
