@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Stack Analytics | Edilson Coelho Moraes",
+  title: "Stack Analytics | Edilson Moraes",
   description:
-    "Portfólio de Edilson Coelho Moraes — Full Stack Developer e Data Analytics.",
+    "Portfólio de Edilson Moraes — Full Stack Developer e Data Analytics.",
 };
 
 export default function RootLayout({

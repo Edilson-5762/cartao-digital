@@ -81,7 +81,7 @@ export function Hero() {
         <div className="flex justify-center md:justify-end">
           <img
             src="/hero/developer-cutout.png"
-            alt="Foto de Edilson Coelho Moraes"
+            alt="Foto de Edilson Moraes"
             className="h-auto max-h-[42vh] w-auto max-w-60 object-contain sm:max-h-[50vh] sm:max-w-70 md:max-h-[58vh] md:max-w-80"
           />
         </div>

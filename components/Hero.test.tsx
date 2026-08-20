@@ -18,7 +18,7 @@ describe("Hero", () => {
     render(<Hero />);
     expect(screen.getByAltText("Python")).toBeInTheDocument();
     expect(
-      screen.getByAltText("Foto de Edilson Coelho Moraes")
+      screen.getByAltText("Foto de Edilson Moraes")
     ).toBeInTheDocument();
   });
 

@@ -21,7 +21,8 @@ export function StoryCarousel() {
       <div className="mx-auto max-w-4xl">
         <h2 className="text-2xl font-bold text-ink sm:text-3xl">Minha História</h2>
         <p className="mt-2 text-ink-muted">
-          De açougueiro a vigilante, e agora em transição para desenvolvedor.
+          De Auxiliar de açougueiro a chefe de equipe e depois migrando para a área de
+          Segurança Privada como vigilante, e agora em transição para desenvolvedor.
         </p>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2 md:items-center">

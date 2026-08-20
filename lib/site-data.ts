@@ -46,7 +46,7 @@ export const storySlides: StorySlide[] = [
     period: "2018 – 2019",
     title: "Chegada em Brasília",
     description:
-      "Recém-chegado à capital, comecei como açougueiro, aprendendo na prática o valor do trabalho duro.",
+      "Recém-chegado à capital, comecei como auxiliar de açougueiro, aprendendo na prática o valor do trabalho duro.",
   },
   {
     images: ["/story/02-chef-acougue.jpg"],
@@ -74,14 +74,14 @@ export const storySlides: StorySlide[] = [
     period: "Em transição",
     title: "Formação em Tecnologia",
     description:
-      "Concluí Análise e Desenvolvimento de Sistemas e iniciei a pós-graduação em Data Analytics e IA Aplicada a Negócios.",
+      "Concluí Análise e Desenvolvimento de Sistemas e estou no meio de uma pós-graduação em Data Analytics e IA Aplicada a Negócios.",
   },
   {
     images: ["/story/06-desenvolvedor.png"],
     period: "Hoje",
     title: "Full Stack Developer em transição de carreira",
     description:
-      "Aplico Python, JavaScript, React, Node e IA no desenvolvimento de soluções, unindo disciplina e uma nova paixão.",
+      "Aplico Python, JavaScript, React, Node e IA no desenvolvimento de soluções, unindo disciplina, foco, determinação e superação. Amo todas as minhas profissões e agradeço a DEUS por tudo. Esse amor, desejo e paixão pela tecnologia já vêm desde a infância.",
   },
 ];
 
